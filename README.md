@@ -1,3 +1,3 @@
 # css.aula01
 ## link de acesso
-https://julia-oliveira22.github.io/senai.info2/
+https://julia-oliveira22.github.io/css.aula01/

@@ -13,6 +13,8 @@
             justify-content: center;
             align-items: center;
             box-sizing: border-box;
+            min-height: 100vh;
+            margin: 0;
         }
 
        
@@ -102,6 +104,23 @@
         .submit-button:active {
             transform: scale(0.99); 
         }
+        
+        .link-aluno {
+            text-align: center;
+            margin-top: 1em;
+        }
+        .link-aluno a {
+            color: #06437c;
+            text-decoration: none;
+            font-weight: bold;
+            
+        }
+
+        .link-aluno a:hover {
+            text-decoration: underline;
+            
+        }
+
 
     </style>
 </head>
@@ -109,7 +128,7 @@
 
     <div class="form-container">
         
-        <form action="https://julia-oliveira22.github.io/senai.info3/" method="post">
+        <form action="index2.html/" method="post">
             <h2>Inscrição do SENAI</h2>
 
             <div class="form-group">
@@ -145,16 +164,12 @@
                 <label for="observacoes">Observações(opcional):</label>
                 <textarea id="observacoes" name="observacoes" rows="5" placeholder=""></textarea>
             </div>
-            <form action="index2.html" method="post">
-                <button type="submit" class="submit-button">
-                    Concluir Inscrição
+                 <button type="submit" class="submit-button">Concluir Inscrição</button>
+            
+<div class="link-aluno">
+          <a href="index3.html">Sou Aluno</a>
             </div>
-            <br>
-           <div style="text-align: center;">
-            <a href="index3.html">Sou aluno</a>
-            </div>
-        </form>
+      </form>
     </div>
-
 </body>
 </html>
